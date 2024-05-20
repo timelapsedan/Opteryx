@@ -1,0 +1,188 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 19px;
+  line-height: 1.5em;
+  margin: 0 0 1em 0;
+}
+
+p b {
+  font-weight: 600;
+}
+
+.headline,
+.headline-b  {
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 0.5rem 0;
+  font-size: 3.6rem;
+  line-height: 1.1;
+}
+
+.headline-b {
+  color: #fff;
+}
+
+.headline span,
+.headline-b span {
+  display: block;
+}
+
+.h-one,
+.h-one-b,
+.h-one-c,
+.h-one-d {
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 0.5rem 0;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.h-one-b {
+  color: #fff;
+}
+
+.h-one span,
+.h-one-b span ,
+.h-one-c span {
+  display: block;
+}
+
+.h-one-c,
+.h-one-d {
+  font-size: 2.6rem;
+}
+
+.h-two,
+.h-two-b,
+.h-two-c {
+  color: var(--secondary);
+  margin: 0 0 1.5rem 0;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.h-two-b {
+  color: #fff;
+}
+
+.h-two-c {
+  color: var(--primary);
+}
+
+.h-three,
+.h-three-b {
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 0.5rem 0;
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+.h-three-b {
+  color: #fff;
+}
+
+.h-three span,
+.h-three-b span {
+  display: block;
+}
+
+.h-four,
+.h-four-b,
+.h-four-c {
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 0 0 2rem 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  line-height: 1.36;
+}
+
+.h-four-b {
+  color: var(--primary);
+  margin: 0;
+}
+
+.h-four-c {
+  margin: 0 0 0.5rem 0;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.7;
+  margin: 0 0 1.5rem 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+p b {
+  font-size: 125%;
+  line-height: 1.2;
+}
+
+.p-two {
+  margin: 0 auto 3rem auto;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.p-three,
+.p-four {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .p-three {
+    padding: 0 25% 0 0;
+  }
+}
+
+@media only screen and (min-width: 1660px) {
+  .h-one,
+  .h-one-b,
+  .h-one-c,
+  .h-one-d {
+    font-size: 3rem;
+  }
+  .h-two,
+  .h-two-b,
+  .h-two-c {
+    font-size: 1.9rem;
+  }
+}
+
+
+@media only screen and (min-width: 2560px) {
+  .h-one,
+  .h-one-b,
+  .h-one-c {
+    font-size: 3.8rem;
+  }
+
+
+  p {
+    font-size: 150%;
+  }
+}

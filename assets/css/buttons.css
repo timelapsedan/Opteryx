@@ -1,0 +1,29 @@
+.b-one {
+  background: var(--secondary);
+  border: 2px solid var(--secondary);
+  color: var(--white);
+  display: block;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  width: 170px;
+  transition: all ease 0.3s;
+}
+
+.b-one:hover {
+  background: transparent;
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+}
+
+@media only screen and (min-width: 2560px) {
+  .b-one {
+    font-size: 1.4rem;
+  }
+}

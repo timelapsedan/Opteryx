@@ -1,0 +1,26 @@
+/* VARS */
+:root {
+  --black: #111;
+  --white: #fff;
+  --grey: #777777;
+  --grey-light: #ccc;
+  --primary: #132335;
+  --primary-alpha: rgba(19, 35, 53, 0.5);
+  --secondary: #A41B35;
+  --tertiary: rgb(28, 183, 216);
+}
+
+/* nuxt */
+.page-enter-active,
+.page-leave-active,
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity ease 0.3s;
+}
+
+.page-enter,
+.page-leave-active,
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
